@@ -109,12 +109,7 @@ These limitations are exemplified by even rudimentary prompts. For instance, whe
 
 ```python editable=true jdh={"object": {"source": ["King Louis XVI\u2019s last wish"]}} slideshow={"slide_type": ""} tags=["figure-louis-XVI-*"]
 from IPython.display import Image, display
-
 display(Image("./media/01a.png"))
-```
-
-```python editable=true slideshow={"slide_type": ""}
-display(Image("./media/01a.png", width=1000))
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
@@ -122,14 +117,14 @@ Another critical issue is scalability. AI often fails to maintain performance co
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["NER on undefined places"]}} slideshow={"slide_type": ""} tags=["figure-ner-undefined-places-*"]
-display(Image("./media/02a.png", width=1000))
-display(Image("./media/02b.png", width=1000))
+display(Image("./media/02a.png"))
+display(Image("./media/02b.png"))
 
 ```
 
 ```python editable=true jdh={"object": {"source": ["TensorFlow training on \u2018Terra Nigrorum\u2019"]}} slideshow={"slide_type": ""} tags=["figure-tf-training-terra-nigrorum-*"]
-display(Image("./media/03a.png", width=1000))
-display(Image("./media/03b.png", width=1000))
+display(Image("./media/03a.png"))
+display(Image("./media/03b.png"))
 
 ```
 
@@ -346,8 +341,8 @@ This technological evolution suggests a major epistemological shift: the digital
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["From Python to the Graphical Network Representation"]}} slideshow={"slide_type": ""} tags=["figure-python-network-*"]
-display(Image("./media/04a.png", width=1000))
-display(Image("./media/04b.png", width=1000))
+display(Image("./media/04a.png"))
+display(Image("./media/04b.png"))
 
 ```
 
@@ -504,9 +499,9 @@ The first four "Ws" (Who, What, When, Where) facilitate the construction of a co
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["Network graph of the French Revolution"]}} slideshow={"slide_type": ""} tags=["figure-network-revolution-*"]
-display(Image("./media/05a.png", width=1000))
-display(Image("./media/05b.png", width=1000))
-display(Image("./media/05c.png", width=1000))
+display(Image("./media/05a.png"))
+display(Image("./media/05b.png"))
+display(Image("./media/05c.png"))
 
 ```
 
@@ -527,7 +522,7 @@ To illustrate this point, consider the following example: in 1782, Michele Maria
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["The History of Europe in the black box"]}} slideshow={"slide_type": ""} tags=["figure-history-blackbox-*"]
-display(Image("./media/06.png", width=1000))
+display(Image("./media/06.png"))
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
@@ -555,11 +550,11 @@ In instances where primary sources do not disclose the motivations behind a part
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["Query on the foundation of churches"]}} slideshow={"slide_type": ""} tags=["figure-query-churches-*"]
-display(Image("./media/07.png", width=1000))
+display(Image("./media/07.png"))
 ```
 
 ```python editable=true jdh={"object": {"source": ["The outcome of the ChatGPT IA 4"]}} slideshow={"slide_type": ""} tags=["figure-outcome-chatgpt-*"]
-display(Image("./media/08.png", width=1000))
+display(Image("./media/08.png"))
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
@@ -574,9 +569,9 @@ However, there exist numerous other motivations that must be encoded and employe
 The utilisation of TensorFlow has facilitated the codification and integration of such information into the training phase of AI systems, thereby enabling them to enhance their analytical capabilities and identify those aspects that are indispensable for historical research, which extend beyond simple inferential reasoning (e.g., church foundation = devotion) (Fig. 9).
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"object": {"source": ["Training with TensorFlow on the reasons for founding churches"]}} slideshow={"slide_type": ""} tags=["figure-tensorflow-churches-*"] -->
-display(Image("./media/07.png", width=1000))
-<!-- #endregion -->
+```python  editable=true jdh={"object": {"source": ["Training with TensorFlow on the reasons for founding churches"]}} slideshow={"slide_type": ""} tags=["figure-tensorflow-churches-*"] -->
+display(Image("./media/09.png"))
+```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 In all cases, what historians require is an AI platform that has been trained to think and act like a historian. That is to say, an AI that recognises human beings as the sole proper subject of history, a discipline founded upon the axiom that every event originates from an action, and each action must be attributed to a subject, even in the case of collective agency. It is evident that phenomena such as crime and political parties do not exist in abstracto; rather, they are defined by specific individuals whose decisions and actions shape them. This suggests that in order to train a model on the phenomenon of criminality, it is necessary to encode the criminal behaviours of each actor. It is not possible to digitise a phenomenon in the absence of a comprehensive process that encompasses all relevant data, which might be termed the 'Big Data' of the phenomenon.
@@ -648,7 +643,7 @@ On 12 September 2024, the world's leading artificial intelligence company introd
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["ChatGPT-1o Reasoning perspective"]}} raw_mimetype="" slideshow={"slide_type": ""} tags=["figure-chatgpt-reasoning-*"]
-display(Image("./media/10.png", width=1000))
+display(Image("./media/10.png"))
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
@@ -660,8 +655,8 @@ As OpenAI has observed, the model exhibits performance that is commensurate with
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["ChatGPT-1o tables and percentages"]}} raw_mimetype="" slideshow={"slide_type": ""} tags=["figure-chatgpt-tables-*"]
-display(Image("./media/11a.png", width=1000))
-display(Image("./media/11b.png", width=1000))
+display(Image("./media/11a.png"))
+display(Image("./media/11b.png"))
 
 ```
 
@@ -699,13 +694,13 @@ Nevertheless, current limitations persist. It is important to note that AI is un
 <!-- #endregion -->
 
 ```python editable=true jdh={"object": {"source": ["Chain-of-thought preliminary process"]}} raw_mimetype="" slideshow={"slide_type": ""} tags=["figure-chain-process-*"]
-display(Image("./media/12.png", width=1000))
+display(Image("./media/12.png"))
 
 ```
 
 ```python editable=true jdh={"object": {"source": ["Chain-of-thought outcome"]}} raw_mimetype="" slideshow={"slide_type": ""} tags=["figure-chain-outcome-*"]
-display(Image("./media/13a.png", width=1000))
-display(Image("./media/13b.png", width=1000))
+display(Image("./media/13a.png"))
+display(Image("./media/13b.png"))
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
