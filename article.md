@@ -574,7 +574,7 @@ The utilisation of TensorFlow has facilitated the codification and integration o
 <!-- #endregion -->
 
 <!-- #region editable=true jdh={"object": {"source": ["Training with TensorFlow on the reasons for founding churches"]}} slideshow={"slide_type": ""} tags=["figure-tensorflow-churches-*"] -->
-display(Image("./media/07.png)", width=1000))
+display(Image("./media/07.png", width=1000))
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
