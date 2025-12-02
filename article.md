@@ -569,7 +569,7 @@ However, there exist numerous other motivations that must be encoded and employe
 The utilisation of TensorFlow has facilitated the codification and integration of such information into the training phase of AI systems, thereby enabling them to enhance their analytical capabilities and identify those aspects that are indispensable for historical research, which extend beyond simple inferential reasoning (e.g., church foundation = devotion) (Fig. 9).
 <!-- #endregion -->
 
-```python  editable=true jdh={"object": {"source": ["Training with TensorFlow on the reasons for founding churches"]}} slideshow={"slide_type": ""} tags=["figure-tensorflow-churches-*"] -->
+```python editable=true jdh={"object": {"source": ["Training with TensorFlow on the reasons for founding churches"]}} slideshow={"slide_type": ""} tags=["figure-tensorflow-churches-*"] -->
 display(Image("./media/09.png"))
 ```
 
